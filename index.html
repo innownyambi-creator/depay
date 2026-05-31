@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr Nhabinde </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="logo">Mr Nhabinde</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <h1>Welcome to Nhabinde's Territory</h1>
+      <p>This is my first website built with HTML, CSS & JavaScript!</p>
+      <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Who I Am</h3>
+          <p>I'm a beginner learning web development. I enjoy building things and solving problems.</p>
+        </div>
+        <div class="card">
+          <h3>What I Do</h3>
+          <p>I'm learning HTML, CSS, and JavaScript to build modern websites from scratch.</p>
+        </div>
+        <div class="card">
+          <h3>My Goals</h3>
+          <p>I want to become a full-stack developer and build real-world applications.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="form-box">
+        <input type="text" id="nameInput" placeholder="Your Name" />
+        <input type="email" id="emailInput" placeholder="Your Email" />
+        <textarea id="msgInput" placeholder="Your Message" rows="4"></textarea>
+        <button onclick="sendMessage()">Send Message</button>
+        <p id="formMsg"></p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 MyWebsite. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
